@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app="phonecatApp" ng-controller="PhoneListCtrl">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title ng-bind-template="Google Phone Gallery: {{query}}">Google Phone Gallery</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/app.css">
+    <script src="lib/angular/angular.js" type="text/javascript"></script>
+    <script src="lib/angular/angular-route.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <a href="#/phones">Phones</a>
+    <a href="#/nav">Nav</a>
+    <div ng-view></div>
+</body>
+
+</html>
